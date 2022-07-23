@@ -1,0 +1,69 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.circle {
+  filter: grayscale(100%);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background-size: 220px;
+  border-radius: 50%;
+  background-position: center -2px;
+  transition-duration: 0.5s;
+  display: inline-block;
+}
+
+.circle:hover {
+  filter: grayscale(0);
+  background-size: 250px;
+  background-position: center -14px;
+}
+
+.circle-1 {
+  background-image: url("../assets/annabelle_1.jpg");
+}
+
+.circle-2 {
+  background-image: url("../assets/annabelle_2.jpg");
+}
+
+.circle-3 {
+  background-image: url("../assets/annabelle_3.jpg");
+}
+
+.circle-4 {
+  background-image: url("../assets/annabelle_4.jpg");
+}
+
+.circle-5 {
+  background-image: url("../assets/annabelle_5.jpg");
+}
+
+.circle-6 {
+  background-image: url("../assets/annabelle_6.jpg");
+}
+
+.circle-7 {
+  background-image: url("../assets/annabelle_7.jpg");
+}
+
+.circle-8 {
+  background-image: url("../assets/annabelle_8.jpg");
+}
+
+.circle-9 {
+  background-image: url("../assets/annabelle_9.jpg");
+}
+
+/*# sourceMappingURL=style.css.map */
