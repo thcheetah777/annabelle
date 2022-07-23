@@ -1,0 +1,22 @@
+{
+  "name": "annabelle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thcheetah777/annabelle.git"
+  },
+  "author": "thcheetah777",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thcheetah777/annabelle/issues"
+  },
+  "homepage": "https://github.com/thcheetah777/annabelle#readme",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
