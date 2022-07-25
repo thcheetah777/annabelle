@@ -20,7 +20,7 @@ body {
   background-size: 220px;
   border-radius: 50%;
   background-position: center -2px;
-  transition-duration: 0.5s;
+  transition-duration: 2s;
   display: inline-block;
 }
 
@@ -31,39 +31,65 @@ body {
 }
 
 .circle-1 {
-  background-image: url("../assets/annabelle_1.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_5.png");
+  animation: rotateRight 5s infinite linear;
 }
 
 .circle-2 {
-  background-image: url("../assets/annabelle_2.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_2.png");
+  animation: rotateLeft 5s infinite linear;
 }
 
 .circle-3 {
-  background-image: url("../assets/annabelle_3.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_3.png");
+  animation: rotateRight 5s infinite linear;
 }
 
 .circle-4 {
-  background-image: url("../assets/annabelle_4.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_4.png");
+  animation: rotateLeft 5s infinite linear;
 }
 
 .circle-5 {
-  background-image: url("../assets/annabelle_5.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_1.png");
+  animation: rotateRight 5s infinite linear;
 }
 
 .circle-6 {
-  background-image: url("../assets/annabelle_6.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_6.png");
+  animation: rotateLeft 5s infinite linear;
 }
 
 .circle-7 {
-  background-image: url("../assets/annabelle_7.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_7.png");
+  animation: rotateRight 5s infinite linear;
 }
 
 .circle-8 {
-  background-image: url("../assets/annabelle_8.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_8.png");
+  animation: rotateLeft 5s infinite linear;
 }
 
 .circle-9 {
-  background-image: url("../assets/annabelle_9.jpg");
+  background-image: url("https://ik.imagekit.io/pfx7oxlvq0/tr:q-100,f-webp,q-1/annabelle_9.png");
+  animation: rotateRight 5s infinite linear;
+}
+
+@keyframes rotateRight {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateLeft {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
